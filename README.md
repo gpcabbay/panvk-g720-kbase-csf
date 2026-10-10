@@ -199,6 +199,17 @@ Detalhes: **[Compatibilidade](docs/COMPATIBILITY.md)**.
 
 **[🧪 Guia de testes](docs/COMMUNITY_TESTING.md)** · **[Contribuir](CONTRIBUTING.md)** · **[Segurança](SECURITY.md)** · **[Licenciamento](LICENSING.md)**
 
+### 📱 Relatórios estruturados — GMailGPU
+
+O **[GMailGPU](https://github.com/SOLO-XP/GMailGPU)** é uma ferramenta comunitária independente para organizar relatórios de problemas em GPUs Mali G52, G57, G615 e G720. Ele permite reunir informações do ambiente, anexar logs, imagens e vídeos, acompanhar o estado do problema e conversar com desenvolvedores dentro do próprio relatório.
+
+**[Abrir projeto](https://github.com/SOLO-XP/GMailGPU)** · **[Baixar versões](https://github.com/SOLO-XP/GMailGPU/releases)**
+
+> [!WARNING]
+> **Ferramenta de terceiros.** O GMailGPU não faz parte do Drive G720/PanVK e sua infraestrutura não é operada por este projeto.
+>
+> Antes de enviar arquivos, revise o conteúdo e **não compartilhe senhas, tokens, cookies, chaves, dados pessoais ou outros dados sensíveis**.
+
 Ao relatar um problema, inclua dispositivo, GPU, Kbase, tag, SHA-256 do pacote, ambiente de execução, DXVK/VKD3D e logs relevantes.
 
 ---
