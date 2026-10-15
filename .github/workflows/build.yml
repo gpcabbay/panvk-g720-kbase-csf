@@ -73,8 +73,10 @@ jobs:
           PKG_CONFIG_LIBDIR: ${{ github.workspace }}/shims
         run: |
           export ANDROID_NDK_HOME="$ANDROID_HOME/ndk/29.0.14206865"
+          test -x "$ANDROID_NDK_HOME/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android30-clang" || { echo "NDK r29 или компилятор не найден"  exit 1}
           export MESON_WORKING_DIR="$GITHUB_WORKSPACE"
           envsubst < android.toml > android-cross.txt
+          
 
           meson setup build --reconfigure \
               --cross-file android-cross.txt \
