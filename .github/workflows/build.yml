@@ -72,7 +72,7 @@ jobs:
         env:
           PKG_CONFIG_LIBDIR: ${{ github.workspace }}/shims
         run: |
-          export ANDROID_NDK_HOME="$ANDROID_NDK_29_HOME"
+          export ANDROID_NDK_HOME="$ANDROID_HOME/ndk/29.0.14206865"
           export MESON_WORKING_DIR="$GITHUB_WORKSPACE"
           envsubst < android.toml > android-cross.txt
 
